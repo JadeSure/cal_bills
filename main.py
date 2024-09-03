@@ -54,6 +54,9 @@ tenants_list = [
     }
 ]
 
+current_date = datetime.now().strftime("%Y-%m-%d")
+print("Today is:", current_date)
+
 def calculate_days(start_date, end_date):
     date_format = "%Y-%m-%d"
     start_date_obj = datetime.strptime(start_date, date_format)
@@ -103,4 +106,6 @@ for tenant in tenants_list:
 
     print(f"{tenant_name} needs to pay ${round(tenant_total_cost, 2)} from {tenant_start_date} to {tenant_end_date}, totally: {tenant_days} days")
 
-
+print()
+print("======================================== End ========================================")
+print()
