@@ -4,24 +4,24 @@ from datetime import datetime
 has_electricity = True
 has_water = True
 has_network = True
-has_gas = False
+has_gas = True
 
 bills_dict = {
     "electricity": {
         "status": has_electricity,
-        "start_date": "2024-07-03",
-        "end_date": "2024-08-31",
-        "cost": 448.28
+        "start_date": "2024-09-01",
+        "end_date": "2024-10-01",
+        "cost": 190.5
     }, "water": {
         "status": has_water,
         "start_date": "2024-05-27",
         "end_date": "2024-07-24",
-        "cost": 78.12
+        "cost": 0
     }, "gas": {
         "status": has_gas,
-        "start_date": "2024-09-01",
-        "end_date": "2024-09-03",
-        "cost": 100
+        "start_date": "2024-05-13",
+        "end_date": "2024-08-11",
+        "cost": 64.43
     }, "network": {
         "status": has_network,
         "start_date": "2024-08-01",
@@ -32,16 +32,16 @@ bills_dict = {
 
 tenants_list = [
     {
-        "name": "Teresa",
-        "start_date": "2024-07-20",
-        "end_date": "2024-08-31",
-        "exclude_bills": ["network", "water"]
-    }, {
         "name": "Saifeng",
         "start_date": "2024-07-17",
         "end_date": "2024-08-31",
         "exclude_bills": []
-    }, {
+    },{
+        "name": "Saifeng's wife",
+        "start_date": "2024-10-15",
+        "end_date": "2024-10-31",
+        "exclude_bills": []
+    },{
         "name": "Jiaqi",
         "start_date": "2024-07-03",
         "end_date": "2024-08-31",
