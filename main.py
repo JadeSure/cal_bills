@@ -10,18 +10,18 @@ bills_dict = {
     "electricity": {
         "status": has_electricity,
         "start_date": "2024-09-01",
-        "end_date": "2024-10-01",
-        "cost": 190.5
+        "end_date": "2024-10-31",
+        "cost": 338.02
     }, "water": {
         "status": has_water,
-        "start_date": "2024-05-27",
-        "end_date": "2024-07-24",
-        "cost": 0
+        "start_date": "2024-07-29",
+        "end_date": "2024-09-30",
+        "cost": 174.17
     }, "gas": {
         "status": has_gas,
         "start_date": "2024-05-13",
         "end_date": "2024-08-11",
-        "cost": 64.43
+        "cost": 64.16
     }, "network": {
         "status": has_network,
         "start_date": "2024-08-01",
@@ -37,8 +37,8 @@ tenants_list = [
         "end_date": "2024-08-31",
         "exclude_bills": []
     },{
-        "name": "Saifeng's wife",
-        "start_date": "2024-10-15",
+        "name": "Nana",
+        "start_date": "2024-10-16",
         "end_date": "2024-10-31",
         "exclude_bills": []
     },{
@@ -48,8 +48,8 @@ tenants_list = [
         "exclude_bills": []
     },{
         "name": "Shawn",
-        "start_date": "2024-08-01",
-        "end_date": "2024-08-31",
+        "start_date": "2024-09-01",
+        "end_date": "2024-10-31",
         "exclude_bills": []
     }
 ]
